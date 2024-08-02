@@ -782,20 +782,20 @@ docker ps
 ```
 #### =========================END of LAB-07=========================
 
-# Lab 8: Pushing the Image to DockerHub
+## Lab 8: Pushing the Image to DockerHub
 
-## Step 1: Create a DockerHub Account
+### Step 1: Create a DockerHub Account
 
 1. Go to [DockerHub](https://hub.docker.com/) and click on "Sign Up".
 2. Fill in the required details, such as username, email, and password.
 3. Verify your email address by clicking on the link sent by DockerHub.
 
-## Step 2: Login to DockerHub
+### Step 2: Login to DockerHub
 
 1. Go to [DockerHub](https://hub.docker.com/) and click on "Login".
 2. Enter your username and password.
 
-## Step 3: Tag Your Image
+### Step 3: Tag Your Image
 
 Run the following command, replacing `<your-username>` with your actual DockerHub username:
 
@@ -803,7 +803,7 @@ Run the following command, replacing `<your-username>` with your actual DockerHu
 docker tag ct-wordpress:v1 <your-username>/ct-wordpress:v1
 ```
 
-## Step 4: Push Your Image to DockerHub
+### Step 4: Push Your Image to DockerHub
 
 1. **Login to DockerHub through CLI Terminal:** Ensure you're logged in by running the following command:
    ```bash
@@ -816,12 +816,12 @@ docker tag ct-wordpress:v1 <your-username>/ct-wordpress:v1
    docker push <your-username>/ct-wordpress:v1
    ```
 
-## Step 5: Verify Your Image on DockerHub
+### Step 5: Verify Your Image on DockerHub
 
 1. Go to [DockerHub](https://hub.docker.com/) and search for your image `<your-username>/ct-wordpress:v1`.
 2. You should see your image listed, with the tags and description.
 
-## Tips
+### Tips
 
 - You can use `docker tag` to add additional tags to your image, such as `latest` or `v2`.
 - You can use `docker push` with the `--all-tags` flag to push all tags associated with your image.
