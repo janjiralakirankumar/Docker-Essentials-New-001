@@ -557,6 +557,18 @@ list
 ls
 ```
 see your files are not here.....
+
+Once Verified `exit,` `Stop` and `Delete` Container.
+```
+exit
+```
+```
+docker stop tmpmount
+```
+Remove your tmpmount
+```
+docker rm tmpmount
+```
 #### =========================END of LAB-05=========================
 
 ## Lab 6: Docker Networking 
