@@ -428,7 +428,11 @@ docker container inspect nginx-container
 ```
 list
 ```
-ls /var/lib/docker/volumes/ct-volume1/_data/ 
+sudo ls /var/lib/docker/volumes/ct-volume1/_data/ 
+```
+Switch to Root user to change to above path
+```
+sudo su
 ```
 getting into directory
 ```
